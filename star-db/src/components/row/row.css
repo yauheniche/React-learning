@@ -1,0 +1,16 @@
+ .row {
+  margin-bottom: 1rem;
+  min-width: 375px;
+}
+
+@media (max-width: 576px) {
+  .col-md-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .row {
+    margin-right: 0; 
+    margin-left: 0;
+  }
+}

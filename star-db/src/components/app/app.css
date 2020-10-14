@@ -6,7 +6,24 @@
   margin-right: 1rem;
 }
 
-.stardb-app .row {
-  margin-bottom: 1rem;
-  min-width: 400px;
+.stardb-app {
+ /* min-width: 610px; */
 }
+
+
+@media (max-width: 576px) {
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+
+  .stardb-app {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+
+

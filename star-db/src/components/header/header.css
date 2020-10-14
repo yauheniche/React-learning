@@ -30,4 +30,21 @@
   height: 2.2rem;
   margin-top: 1px;
   margin-left: 3px;
+  height: min-content;
+}
+
+
+@media (max-width: 768px) {
+  .header ul li:nth-child(n+4) {
+    display: none
+  }
+  .header ul li {
+    padding-inline-start: 0;
+    
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
 }

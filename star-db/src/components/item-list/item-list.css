@@ -4,8 +4,10 @@
 
 .item-list .list-group-item {
   cursor: pointer;
+  padding: 0.65rem 1.25rem;
 }
 
 .item-list .list-group-item:hover {
   background-color: #444;
 }
+

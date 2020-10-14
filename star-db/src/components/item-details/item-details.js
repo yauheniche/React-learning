@@ -46,8 +46,15 @@ export default class ItemDetails extends Component {
         this.setState({
           item,
           image: getImageUrl(item)
-        });
-      });
+        })
+      })
+      .catch((item)=> {
+        console.log('MAISTA');
+        this.setState({
+          item,
+          image: getImageUrl(item)
+        })
+      })
   }
 
   render() {
